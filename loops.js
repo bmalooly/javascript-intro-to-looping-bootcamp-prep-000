@@ -8,8 +8,7 @@ function forLoop(array) {
   return array;
 }
 function whileLoop(num) {
-  let countdown = num > 0
-  while (countdown > 0) {console.log(--countdown);
+  while (num > 0) {console.log(--countdown);
   }
   return 'done'
 }
