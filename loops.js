@@ -13,7 +13,7 @@ function whileLoop(num) {
   return 'done';
 }
 function doWhileLoop(array) {
-  do { splice(1)
+  do { array.unshift
   } while (array.length > 0 && incrementVariable())
   return array
 }
